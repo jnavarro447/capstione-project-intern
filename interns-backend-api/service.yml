@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: interns-backend-api
+  name: interns-backend-service
+spec:
+  selector:
+    #Deplyoment name
+    app: interns-backend-api
+  ports:
+    - 
+      protocol: TCP
+      port: 8000
+      targetPort: 8000

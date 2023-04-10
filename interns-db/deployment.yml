@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: interns-db-app
+  labels:
+    app: interns-db-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: interns-db-app
+  template:
+    metadata:
+      labels:
+        app: interns-db-app
+    spec:
+      volumes:
+      - 
+        name: db-pv-volume
+        persistentVolumeClaim:
+          claimName: db-pv-claim
+      - 
+        name: db-config-volume
+        configMap:
+          name: db-schema-init
+      containers:
+      - 
+        name: interns-db-image
+        image: postgres
+        ports:
+        - 
+          containerPort: 5432
+          protocol: TCP
+        env: 
+        - 
+          name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: postgres-secret
+              key: POSTGRES_PASSWORD
+        volumeMounts:
+        - 
+          name: db-config-volume
+          mountPath: /docker-entrypoint-initdb.d/schema.sql
+          subPath: schema.sql
+        -
+          name: db-pv-volume
+          mountPath: /var/lib/postgresql/data

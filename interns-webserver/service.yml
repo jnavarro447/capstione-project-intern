@@ -1,0 +1,15 @@
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: interns-webserver-service
+  labels:
+    app: interns-webserver-app
+spec:
+  selector:
+    app: interns-webserver-app
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  type: ClusterIP

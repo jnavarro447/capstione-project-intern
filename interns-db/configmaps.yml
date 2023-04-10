@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-schema-init
+data:
+  schema.sql: |
+    CREATE DATABASE "grid_interns";
+    \c grid_interns
+    CREATE TABLE "intern" (
+      "id_intern" int PRIMARY KEY,
+      "first_name" varchar,
+      "last_name" varchar
+    );
+    \c grid_interns
+    INSERT INTO  "intern"(id_intern, first_name, last_name) VALUES ('01', 'Jose', 'Navarro');
+    INSERT INTO  "intern"(id_intern, first_name, last_name) VALUES ('02', 'Paulo', 'Chavez');
+    INSERT INTO  "intern"(id_intern, first_name, last_name) VALUES ('03', 'Karen', 'Lopez');

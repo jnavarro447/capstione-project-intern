@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: interns-backend-api
+  labels:
+    app: interns-backend-api
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: interns-backend-api
+  template:
+    metadata:
+      labels:
+        app: interns-backend-api
+    spec:
+      containers:
+      - name: interns-backend-image
+        image: interns-backend-container
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+          protocol: TCP
+        env:
+        -
+          name: DB_HOST
+          value: "interns-db-service"
+          

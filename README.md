@@ -22,6 +22,7 @@ To run it locally it is needed to start in the following order:
 
 ### 1. Run DB <hr/>
 ---
+***
 1. Start minikube service by typing:
     ```bash
     bash minikube start

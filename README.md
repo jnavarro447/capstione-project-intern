@@ -15,14 +15,14 @@ In this project, the skills learned were put into practice as a DevOps engineer 
 
 -->
 ## Prerequisites
-    * FastAPI
-    * Python
-    * Github
-    * Docker
-    * Kubernetes
-    * Jenkins
-    * Azure/AWS
-    * Linux OS
+* FastAPI
+* Python
+* Github
+* Docker
+* Kubernetes
+* Jenkins
+* Azure/AWS
+* Linux OS
 
 To run it locally it is needed to start in the following order:
 

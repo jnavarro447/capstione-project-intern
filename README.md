@@ -1,8 +1,7 @@
 # capstione-project-intern
-This is a project in which the skills learned at intership as a DevOps engineer are reflected. It contains a FastAPI web application, with a nginx web server for the python backend and a postgres database for data persistence.
-
+In this project put into practice the skills learned at intership as a DevOps engineer. It is about build a simple CI/CD pipeline and then host in cloud a FastAPI webapp with a postgres database for data persistence and nginx web server for python backend. Using tools like Docker, Kubernetes, Jenkins and other CI/CD tools.
 <!-- 
-  In this project put into practice the skills learned at intership as a DevOps engineer. It is about build a simple CI/CD pipeline and then host in cloud using tools like FastAPI, Docker, Kubernetes, Jenkins and (Azure/AWS).
+  This is a project in which the skills learned at intership as a DevOps engineer are reflected. It contains a FastAPI web application, with a nginx web server for the python backend and a postgres database for data persistence.
 
   Prerequisites.
   -FastAPI

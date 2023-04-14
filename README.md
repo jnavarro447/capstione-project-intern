@@ -20,7 +20,7 @@ This is a project in which the skills learned at intership as a DevOps engineer 
 
 To run it locally it is needed to start in the following order:
 
-### 1. Run DB <hr/>
+# 1. Run DB <hr/>
 ---
 ***
 1. Start minikube service by typing:

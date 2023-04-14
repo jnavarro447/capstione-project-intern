@@ -20,9 +20,7 @@ This is a project in which the skills learned at intership as a DevOps engineer 
 
 To run it locally it is needed to start in the following order:
 
-# 1. Run DB <hr/>
----
-***
+# 1. Run DB
 1. Start minikube service by typing:
     ```bash
     bash minikube start
@@ -39,7 +37,7 @@ To run it locally it is needed to start in the following order:
     kubectl apply -f .
     ```
     
-### 2. Run backend API
+## 2. Run backend API
 4. Mapping into [interns-backend-api](https://github.com/jnavarro447/capstione-project-intern/tree/main/interns-backend-api) folder.
 5. Build a local iamge with the backend api code.
     ```bash

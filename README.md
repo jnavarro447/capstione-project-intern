@@ -13,9 +13,16 @@ In this project, the skills learned were put into practice as a DevOps engineer 
   -Azure/AWS
   -Linux OS
 
-  ### 1. Create a project repository on Github
-
 -->
+## Prerequisites
+    * FastAPI
+    * Python
+    * Github
+    * Docker
+    * Kubernetes
+    * Jenkins
+    * Azure/AWS
+    * Linux OS
 
 To run it locally it is needed to start in the following order:
 

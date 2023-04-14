@@ -3,7 +3,7 @@ In this project, the skills learned were put into practice as a DevOps engineer 
 <!-- 
   This is a project in which the skills learned at intership as a DevOps engineer are reflected. It contains a FastAPI web application, with a nginx web server for the python backend and a postgres database for data persistence.
 -->
-## Prerequisites
+### Prerequisites
 * FastAPI
 * Python
 * Minikube

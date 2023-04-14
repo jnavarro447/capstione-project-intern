@@ -1,9 +1,26 @@
 # capstione-project-intern
 This is a project in which the skills learned at intership as a DevOps engineer are reflected. It contains a FastAPI web application, with a nginx web server for the python backend and a postgres database for data persistence.
 
+<!-- 
+  In this project put into practice the skills learned at intership as a DevOps engineer. It is about build a simple CI/CD pipeline and then host in cloud using tools like FastAPI, Docker, Kubernetes, Jenkins and (Azure/AWS).
+
+  Prerequisites.
+  -FastAPI
+  -Python
+  -Github
+  -Docker
+  -Kubernetes
+  -Jenkins
+  -Azure/AWS
+  -Linux OS
+
+  ### 1. Create a project repository on Github
+
+-->
+
 To run it locally it is needed to start in the following order:
 
-### 1. Run DB
+### 1. Run DB <hr/>
 1. Start minikube service by typing:
     ```bash
     bash minikube start

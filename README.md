@@ -18,7 +18,7 @@ To run it locally it is needed to start in the following order:
 ### Run DB
 1. Start minikube service by typing:
     ```bash
-    bash minikube start
+    minikube start
     ```
 2. Mapping into [interns-db](https://github.com/jnavarro447/capstione-project-intern/tree/main/interns-db) folder. 
    Then, mount on the data directory from this same repo. <br/>

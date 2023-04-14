@@ -40,6 +40,6 @@ To run it locally it is needed to start in the following order:
 9. Run a port forward to expose a port on your local
     ```bash
     kubectl port-forward service/nginx 8080:80
-
+    ```
 
 

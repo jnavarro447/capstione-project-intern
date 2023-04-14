@@ -2,17 +2,6 @@
 In this project, the skills learned were put into practice as a DevOps engineer internship. It is about build a simple CI/CD pipeline and then host in cloud a FastAPI webapp with a postgres database for data persistence and nginx web server for python backend. Using tools like Docker, Kubernetes, Jenkins and other CI/CD tools.
 <!-- 
   This is a project in which the skills learned at intership as a DevOps engineer are reflected. It contains a FastAPI web application, with a nginx web server for the python backend and a postgres database for data persistence.
-
-  Prerequisites.
-  -FastAPI
-  -Python
-  -Github
-  -Docker
-  -Kubernetes
-  -Jenkins
-  -Azure/AWS
-  -Linux OS
-
 -->
 ## Prerequisites
 * FastAPI
